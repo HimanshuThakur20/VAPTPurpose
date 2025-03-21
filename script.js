@@ -3,7 +3,7 @@ alert("cross domain script execution ");
 // window.location.href = "https://www.google.com";
 // meme_modal.js
 window.onload = function() {
-    const memeUrl = "/image(2).png";
+    const memeUrl = "https://vaptcheck.netlify.app/image%20(2).png";
     
     const modal = document.createElement("div");
     modal.style.position = "fixed";
