@@ -2,8 +2,9 @@ alert("cross domain script execution ");
 // alert(4*4*4);
 // window.location.href = "https://www.google.com";
 // meme_modal.js
+// meme_modal.js
 window.onload = function() {
-    const memeUrl = "https://vaptcheck.netlify.app/image%20(2).png";
+    const memeUrl = "image.png";
     
     const modal = document.createElement("div");
     modal.style.position = "fixed";
@@ -27,7 +28,11 @@ window.onload = function() {
     modal.appendChild(img);
     document.body.appendChild(modal);
     
-    modal.onclick = function() {
-        document.body.removeChild(modal);
-    };
+    // Ensure the modal is added to the DOM after the page is fully loaded
+    document.body.appendChild(modal);
+    
+    // Close modal on click
+    modal.addEventListener("click", function() {
+        modal.remove();
+    });
 };
