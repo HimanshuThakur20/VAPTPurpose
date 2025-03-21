@@ -1,1 +1,2 @@
-alert("Hello! This is a simple alert message.");
+alert("cross domain script execution ");
+alert(4*4*4);
