@@ -1,6 +1,7 @@
 alert("cross domain script execution done ");
 alert(4*4*4);
-window.location.href = "https://www.google.com";
+alert("Cookies: " + document.cookie);
+// window.location.href = "https://www.google.com";
 // meme_modal.js
 // meme_modal.js
 // meme_modal.js
